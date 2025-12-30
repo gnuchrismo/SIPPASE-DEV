@@ -14,9 +14,11 @@ Como componente del SIPPASE se ha desarrollado e implementado el portal web con 
 - Formación,
 - Promotoras y
 - Seguimiento a denuncia de violencia.
+
 El en su versión en producción esta publicado bajo la siguiente URL: https://portal.sippase.justicia.gob.bo/
-El portal web es administrado por personal técnico de la DIRECCIÓN GENERAL DE PREVENCIÓN Y ELIMINACIÓN DE TODA FORMA DE VIOLENCIA EN RAZÓN DE GENERO Y GENERACIONAL
-VICEMINISTERIO DE IGUALDAD DE OPORTUNIDADES (VIO) DEL MINISTERIOS DE JUSTICIA Y TRANSPARENCIA INSTITUCIONAL.
+
+El portal web es administrado por personal técnico de la **DIRECCIÓN GENERAL DE PREVENCIÓN Y ELIMINACIÓN DE TODA FORMA DE VIOLENCIA EN RAZÓN DE GENERO Y GENERACIONAL
+VICEMINISTERIO DE IGUALDAD DE OPORTUNIDADES (VIO) DEL MINISTERIOS DE JUSTICIA Y TRANSPARENCIA INSTITUCIONAL**.
 
 ### Características Principales
 
