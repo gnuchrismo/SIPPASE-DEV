@@ -1,0 +1,80 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo con gradiente -->
+  <defs>
+    <linearGradient id="bgGradientSELLO" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e6f9ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f0e6ff;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="selloGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#6b2ebf;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#8b4ecf;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c23db3;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadowSELLO">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.15"/>
+    </filter>
+    <radialGradient id="ribbonGradient">
+      <stop offset="0%" style="stop-color:#c23db3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6b2ebf;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Fondo -->
+  <rect width="400" height="300" fill="url(#bgGradientSELLO)"/>
+  
+  <!-- Elementos decorativos (estrellas) -->
+  <path d="M 60,60 L 65,70 L 75,70 L 67,76 L 70,86 L 60,80 L 50,86 L 53,76 L 45,70 L 55,70 Z" fill="#c23db3" opacity="0.1"/>
+  <path d="M 340,80 L 343,86 L 350,86 L 345,90 L 347,97 L 340,93 L 333,97 L 335,90 L 330,86 L 337,86 Z" fill="#6b2ebf" opacity="0.1"/>
+  <path d="M 350,240 L 353,246 L 360,246 L 355,250 L 357,257 L 350,253 L 343,257 L 345,250 L 340,246 L 347,246 Z" fill="#c23db3" opacity="0.1"/>
+  
+  <!-- Medalla/Sello principal -->
+  <g transform="translate(200, 130)" filter="url(#shadowSELLO)">
+    <!-- Círculo exterior con borde ondulado (sello) -->
+    <circle cx="0" cy="0" r="65" fill="url(#selloGradient)"/>
+    <circle cx="0" cy="0" r="60" fill="white"/>
+    <circle cx="0" cy="0" r="50" fill="url(#selloGradient)" opacity="0.1"/>
+    
+    <!-- Estrella central -->
+    <path d="M 0,-35 L 8,-10 L 35,-10 L 13,5 L 21,30 L 0,15 L -21,30 L -13,5 L -35,-10 L -8,-10 Z" 
+          fill="url(#selloGradient)"/>
+    
+    <!-- Marca de verificación -->
+    <g transform="translate(0, 5)">
+      <path d="M -15,-8 L -5,5 L 18,-20" 
+            stroke="white" 
+            stroke-width="5" 
+            stroke-linecap="round" 
+            stroke-linejoin="round" 
+            fill="none"/>
+    </g>
+    
+    <!-- Cinta superior -->
+    <path d="M -30,-60 L -30,-80 L -10,-90 L 10,-90 L 30,-80 L 30,-60 L 15,-65 L 0,-55 L -15,-65 Z" 
+          fill="url(#ribbonGradient)"/>
+  </g>
+  
+  <!-- Íconos pequeños de buenas prácticas alrededor -->
+  <g transform="translate(100, 140)" opacity="0.3">
+    <!-- Corazón -->
+    <path d="M 0,-5 C -3,-8 -8,-8 -10,-5 C -12,-2 -10,2 0,8 C 10,2 12,-2 10,-5 C 8,-8 3,-8 0,-5 Z" 
+          fill="#6b2ebf"/>
+  </g>
+  
+  <g transform="translate(300, 140)" opacity="0.3">
+    <!-- Handshake simplificado -->
+    <rect x="-8" y="-3" width="16" height="6" rx="2" fill="#c23db3"/>
+    <circle cx="-10" cy="0" r="4" fill="#c23db3"/>
+    <circle cx="10" cy="0" r="4" fill="#c23db3"/>
+  </g>
+  
+  <!-- Texto descriptivo -->
+  <text x="200" y="235" text-anchor="middle" font-family="Montserrat, sans-serif" font-size="24" font-weight="700" fill="#6b2ebf">
+    SELLO
+  </text>
+  <text x="200" y="255" text-anchor="middle" font-family="Nunito, sans-serif" font-size="13" fill="#8a6a9a">
+    Empresa Comprometida
+  </text>
+  <text x="200" y="272" text-anchor="middle" font-family="Nunito, sans-serif" font-size="12" fill="#8a6a9a" opacity="0.8">
+    Buenas Prácticas
+  </text>
+</svg>
