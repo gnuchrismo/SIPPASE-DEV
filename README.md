@@ -1,4 +1,4 @@
-# SIPPASE - Sistema Integral de Presupuestos, Pagos y Seguimiento de Ejecución
+# PORTAL WEB SIPPASE - Gestor de Contenidos basado en ROBITCMS
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D16.0.0-brightgreen.svg)](https://nodejs.org/)
