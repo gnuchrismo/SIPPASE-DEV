@@ -22,8 +22,8 @@ VICEMINISTERIO DE IGUALDAD DE OPORTUNIDADES (VIO) DEL MINISTERIOS DE JUSTICIA Y 
 
 ### Características Principales
 
-- 📊 **Gestión de Presupuestos**: Control completo del ciclo presupuestario
-- 💰 **Control de Pagos**: Seguimiento detallado de pagos y ejecución
+- 📊 **Gestión de Blog/noticias**: Control completo del ciclo blog y noticias
+- 💰 **Cursos y Tutoriales**: Gestión de Cursos y Tutoriales
 - 📈 **Reportes y Estadísticas**: Dashboards interactivos y reportes personalizables
 - 👥 **Gestión de Usuarios**: Sistema de roles y permisos granulares
 - 📱 **Responsive**: Interfaz adaptable a dispositivos móviles y tablets
