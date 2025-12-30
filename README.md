@@ -6,7 +6,17 @@
 
 ## 📋 Descripción
 
-SIPPASE es un sistema integral para la gestión de presupuestos, control de pagos y seguimiento de ejecución presupuestaria. Desarrollado para instituciones que requieren un control riguroso y transparente de sus recursos financieros.
+Portal WEB SIPPASE es un sistema integral de contenidos como componente del SIPPASE.
+Como componente del SIPPASE se ha desarrollado e implementado el portal web con información relacionada al estado de situación de violencia contra la mujer como son: 
+- Servicios de ayuda,
+- Gestor de conocimientos,
+- Estadística Oficial,
+- Formación,
+- Promotoras y
+- Seguimiento a denuncia de violencia.
+El en su versión en producción esta publicado bajo la siguiente URL: https://portal.sippase.justicia.gob.bo/
+El portal web es administrado por personal técnico de la DIRECCIÓN GENERAL DE PREVENCIÓN Y ELIMINACIÓN DE TODA FORMA DE VIOLENCIA EN RAZÓN DE GENERO Y GENERACIONAL
+VICEMINISTERIO DE IGUALDAD DE OPORTUNIDADES (VIO) DEL MINISTERIOS DE JUSTICIA Y TRANSPARENCIA INSTITUCIONAL.
 
 ### Características Principales
 
