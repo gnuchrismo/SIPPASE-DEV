@@ -6,39 +6,39 @@
 [![Vue.js](https://img.shields.io/badge/vue-3.5.24-green.svg)](https://vuejs.org/)
 [![Quasar](https://img.shields.io/badge/quasar-2.18.6-blue.svg)](https://quasar.dev/)
 
-## 📋 Descripción
+## Descripción
 
 **Portal Web SIPPASE** es un sistema integral de gestión de contenidos desarrollado como componente del SIPPASE (Sistema Integral de Presupuestos, Pagos y Seguimiento de Ejecución). El portal web proporciona información relacionada al estado de situación de violencia contra la mujer, incluyendo:
 
-- 🆘 **Servicios de Ayuda**: Información sobre servicios de atención y apoyo
-- 📚 **Gestor de Conocimientos**: Biblioteca de recursos y documentación
-- 📊 **Estadística Oficial**: Datos y reportes sobre violencia de género
-- 🎓 **Formación**: Cursos y materiales educativos
-- 👥 **Promotoras**: Red de promotoras comunitarias
-- 🔍 **Seguimiento a Denuncias**: Sistema de seguimiento de casos de violencia
+- **Servicios de Ayuda**: Información sobre servicios de atención y apoyo
+- **Gestor de Conocimientos**: Biblioteca de recursos y documentación
+- **Estadística Oficial**: Datos y reportes sobre violencia de género
+- **Formación**: Cursos y materiales educativos
+- **Promotoras**: Red de promotoras comunitarias
+- **Seguimiento a Denuncias**: Sistema de seguimiento de casos de violencia
 
-### 🌐 Versión en Producción
+### Versión en Producción
 
 El portal está publicado en: **https://portal.sippase.justicia.gob.bo/**
 
-### 🏛️ Institución
+### Institución
 
 Administrado por personal técnico de la **Dirección General de Prevención y Eliminación de Toda Forma de Violencia en Razón de Género y Generacional**, **Viceministerio de Igualdad de Oportunidades (VIO)** del **Ministerio de Justicia y Transparencia Institucional**.
 
-## ✨ Características Principales
+## Características Principales
 
-- 📰 **Gestión de Blog/Noticias**: Control completo del ciclo de publicación de noticias y artículos
-- 🎓 **Cursos y Tutoriales**: Sistema de gestión de cursos, tutoriales y materiales de formación
-- 📊 **Reportes y Estadísticas**: Dashboards interactivos y reportes personalizables
-- 👥 **Gestión de Usuarios**: Sistema de roles y permisos granulares
-- 📱 **Responsive**: Interfaz adaptable a dispositivos móviles y tablets
-- 🔒 **Seguridad**: Autenticación JWT y control de acceso basado en roles
-- 🌍 **Multilenguaje**: Soporte para múltiples idiomas
-- 📄 **Gestión de Páginas**: Editor de contenido dinámico
-- 🖼️ **Galería Multimedia**: Gestión de imágenes y videos
-- 📋 **Formularios Dinámicos**: Constructor de formularios personalizados
+- **Gestión de Blog/Noticias**: Control completo del ciclo de publicación de noticias y artículos
+- **Cursos y Tutoriales**: Sistema de gestión de cursos, tutoriales y materiales de formación
+- **Reportes y Estadísticas**: Dashboards interactivos y reportes personalizables
+- **Gestión de Usuarios**: Sistema de roles y permisos granulares
+- **Responsive**: Interfaz adaptable a dispositivos móviles y tablets
+- **Seguridad**: Autenticación JWT y control de acceso basado en roles
+- **Multilenguaje**: Soporte para múltiples idiomas
+- **Gestión de Páginas**: Editor de contenido dinámico
+- **Galería Multimedia**: Gestión de imágenes y videos
+- **Formularios Dinámicos**: Constructor de formularios personalizados
 
-## 🏗️ Arquitectura del Sistema
+## Arquitectura del Sistema
 
 ```mermaid
 graph TB
@@ -109,7 +109,7 @@ graph TB
 - **Charts**: Chart.js + Vue-ChartJS
 - **Validación**: Vuelidate
 
-## 🚀 Instalación y Configuración
+## Instalación y Configuración
 
 ### Requisitos Previos
 
@@ -227,7 +227,7 @@ npm run preview
 
 El frontend estará disponible en `http://localhost:5173`
 
-## 📖 Documentación
+## Documentación
 
 ### Estructura del Proyecto
 
@@ -519,7 +519,7 @@ volumes:
   postgres_data:
 ```
 
-## 🧪 Testing
+## Testing
 
 ### Backend
 
@@ -535,7 +535,7 @@ cd frontend
 npm test
 ```
 
-## 🤝 Contribuir
+## Contribuir
 
 ¡Las contribuciones son bienvenidas! Por favor lee [CONTRIBUTING.md](CONTRIBUTING.md) para conocer el proceso de contribución.
 
@@ -547,13 +547,13 @@ npm test
 4. Push a la rama (`git push origin feature/AmazingFeature`)
 5. Abre un Pull Request
 
-## 📝 Convenciones de Código
+## Convenciones de Código
 
 - **JavaScript**: ESLint + Prettier
 - **Commits**: Conventional Commits (`feat:`, `fix:`, `docs:`, etc.)
 - **Branches**: `feature/`, `fix/`, `docs/`, `refactor/`
 
-## 🐛 Reportar Bugs
+## Reportar Bugs
 
 Si encuentras un bug, por favor abre un [Issue](https://github.com/gnuchrismo/SIPPASE-DEV/issues) con:
 
@@ -564,11 +564,11 @@ Si encuentras un bug, por favor abre un [Issue](https://github.com/gnuchrismo/SI
 - Versión del navegador/Node.js
 - Logs relevantes
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
 
-## 👥 Autores y Colaboradores
+## Autores y Colaboradores
 
 - **Christian Mollo** - [@gnuchrismo](https://github.com/gnuchrismo) - Desarrollo Principal
 
@@ -577,21 +577,22 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 **Dirección General de Prevención y Eliminación de Toda Forma de Violencia en Razón de Género y Generacional**  
 **Viceministerio de Igualdad de Oportunidades (VIO)**  
 **Ministerio de Justicia y Transparencia Institucional**
+**ONU - MUJERES**
 
-## 🙏 Agradecimientos
+## Agradecimientos
 
 - Equipo técnico del VIO
 - Comunidad de Vue.js y Quasar
 - Todos los contribuidores al proyecto
 - Personal de la Dirección General de Prevención y Eliminación de Violencia
 
-## 📞 Contacto y Soporte
+## Contacto y Soporte
 
 - **Email**: gnuchrismo@gmail.com
 - **GitHub Issues**: [SIPPASE-DEV Issues](https://github.com/gnuchrismo/SIPPASE-DEV/issues)
 - **Portal Oficial**: https://portal.sippase.justicia.gob.bo/
 
-## 🔗 Enlaces Útiles
+## Enlaces Útiles
 
 - [Documentación de Vue.js](https://vuejs.org/)
 - [Documentación de Quasar](https://quasar.dev/)
