@@ -306,7 +306,7 @@ SIPPASE-DEV/
 - Exportación de datos
 - Notificaciones por email
 
-## 🚢 Guía de Despliegue
+## Guía de Despliegue
 
 ### Despliegue en Servidor Linux (Debian/Ubuntu)
 
