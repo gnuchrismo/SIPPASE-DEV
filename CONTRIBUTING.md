@@ -2,7 +2,7 @@
 
 ¡Gracias por tu interés en contribuir a SIPPASE! Este documento proporciona pautas para contribuir al proyecto.
 
-## 📋 Tabla de Contenidos
+## Tabla de Contenidos
 
 - [Código de Conducta](#código-de-conducta)
 - [Cómo Contribuir](#cómo-contribuir)
@@ -12,11 +12,11 @@
 - [Reportar Bugs](#reportar-bugs)
 - [Sugerir Mejoras](#sugerir-mejoras)
 
-## 🤝 Código de Conducta
+## Código de Conducta
 
 Este proyecto se adhiere a un código de conducta. Al participar, se espera que mantengas este código. Por favor reporta comportamientos inaceptables.
 
-## 🚀 Cómo Contribuir
+## Cómo Contribuir
 
 ### 1. Fork del Repositorio
 
@@ -82,7 +82,7 @@ git push origin feature/nombre-descriptivo
 - Completa la plantilla de PR
 - Espera revisión
 
-## 🔄 Proceso de Pull Request
+## Proceso de Pull Request
 
 ### Antes de Enviar
 
@@ -125,7 +125,7 @@ git push origin feature/nombre-descriptivo
 3. **Cambios Solicitados**: Si se solicitan cambios, actualiza tu PR
 4. **Aprobación**: Una vez aprobado, tu PR será mergeado
 
-## 📝 Estándares de Código
+## Estándares de Código
 
 ### JavaScript/Node.js
 
@@ -135,7 +135,7 @@ git push origin feature/nombre-descriptivo
 - **Punto y coma**: Requerido
 
 ```javascript
-// ✅ Bueno
+// Bueno
 const getUserById = async (id) => {
   try {
     const user = await User.findByPk(id);
@@ -145,7 +145,7 @@ const getUserById = async (id) => {
   }
 };
 
-// ❌ Malo
+// Malo
 const getUserById=async(id)=>{
 try{
 const user=await User.findByPk(id)
@@ -164,7 +164,7 @@ throw new Error("User not found: "+error.message)
 - **Composition API**: Preferido sobre Options API
 
 ```vue
-<!-- ✅ Bueno -->
+<!-- Bueno -->
 <template>
   <div class="user-card">
     <h3>{{ userName }}</h3>
@@ -190,7 +190,7 @@ const handleClick = () => {
 - **Claves primarias**: `id`
 - **Claves foráneas**: `tabla_id`
 
-## 💬 Convenciones de Commits
+## Convenciones de Commits
 
 Usamos [Conventional Commits](https://www.conventionalcommits.org/) para mensajes de commit claros y consistentes.
 
@@ -236,7 +236,7 @@ git commit -m "feat(api)!: change response format
 BREAKING CHANGE: API responses now use camelCase instead of snake_case"
 ```
 
-## 🐛 Reportar Bugs
+## Reportar Bugs
 
 ### Antes de Reportar
 
@@ -275,7 +275,7 @@ BREAKING CHANGE: API responses now use camelCase instead of snake_case"
 [Cualquier otra información relevante]
 ```
 
-## 💡 Sugerir Mejoras
+## Sugerir Mejoras
 
 ### Plantilla de Feature Request
 
@@ -293,7 +293,7 @@ BREAKING CHANGE: API responses now use camelCase instead of snake_case"
 [Cualquier otro contexto o screenshots]
 ```
 
-## 🧪 Testing
+## Testing
 
 ### Ejecutar Tests
 
@@ -314,7 +314,7 @@ npm test
 - Usa nombres descriptivos para los tests
 
 ```javascript
-// ✅ Bueno
+// Bueno
 describe('UserController', () => {
   describe('getUserById', () => {
     it('should return user when valid id is provided', async () => {
@@ -328,21 +328,21 @@ describe('UserController', () => {
 });
 ```
 
-## 📚 Recursos
+## Recursos
 
 - [Documentación de Vue.js](https://vuejs.org/)
 - [Documentación de Quasar](https://quasar.dev/)
 - [Documentación de Express](https://expressjs.com/)
 - [Conventional Commits](https://www.conventionalcommits.org/)
 
-## ❓ Preguntas
+## Preguntas
 
 Si tienes preguntas, puedes:
 - Abrir un [Discussion](https://github.com/gnuchrismo/SIPPASE-DEV/discussions)
 - Contactar a los maintainers
 - Revisar la documentación existente
 
-## 🙏 Agradecimientos
+## Agradecimientos
 
 ¡Gracias por contribuir a SIPPASE! Tu ayuda hace que este proyecto sea mejor para todos.
 
